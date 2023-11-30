@@ -48,7 +48,7 @@
   align-items: center;
   margin: 0 auto 100px;
   border: 2px solid var(--color-accent, #000);
-  font-family: var(--font-family-accent, "Press Start 2P"), sans-serif;
+  font-family: var(--font-family-accent, "Press Start 2P"), monospace;
   text-transform: uppercase;
   background-color: var(--color-main, #fff);
   inline-size: clamp(375px, 100%, 700px);
@@ -156,7 +156,7 @@
   border-block-end: 2px solid var(--color-accent, #000);
   padding: 5px 10px;
   font-size: 18px;
-  font-variation-settings: var(--wght-cart-title, "wght" 700);
+  font-variation-settings: "wght" var(--wght-cart-title, 700);
 }
 
 .card__image {
@@ -200,7 +200,7 @@
 .card__watermark {
   position: absolute;
   opacity: 0.5;
-  font-family: var(--font-family-accent, "Press Start 2P"), sans-serif;
+  font-family: var(--font-family-accent, "Press Start 2P"), monospace;
   font-size: 14px;
   text-transform: uppercase;
   text-shadow: -1px 0 var(--color-main, #fff), 0 1px var(--color-main, #fff),
@@ -236,7 +236,7 @@
   gap: 27px;
   line-height: 21px;
   font-size: 18px;
-  font-variation-settings: var(--wght-cart-text, "wght" 400);
+  font-variation-settings: "wght" var(--wght-cart-text, 400);
 }
 
 /* Стилизация кнопок */
@@ -297,7 +297,7 @@
   z-index: 1;
   display: block;
   color: var(--color-text, #fff);
-  font-family: var(--font-family-accent, "Press Start 2P"), sans-serif;
+  font-family: var(--font-family-accent, "Press Start 2P"), monospace;
   font-weight: 400;
   font-size: 14px;
   line-height: 90%;
@@ -380,7 +380,7 @@
 }
 
 .dialog__text {
-  font-family: var(--font-family-accent, "Press Start 2P"), sans-serif;
+  font-family: var(--font-family-accent, "Press Start 2P"), monospace;
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;

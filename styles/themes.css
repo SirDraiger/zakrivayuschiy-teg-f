@@ -12,8 +12,8 @@
   --bg-gradient-main: #000;
   --bg-gradient-start: #007f0c;
   --bg-gradient-end: #004306;
-  --wght-cart-title: "wght" 785;
-  --wght-cart-text: "wght" 465;
+  --wght-cart-title: 785;
+  --wght-cart-text: 465;
   --heart-core-color: #000;
   --heart-main-body-color: #000;
   --heart-counter-color: #00CC14;
@@ -27,8 +27,8 @@
   --bg-gradient-main: #d3d3d3;
   --bg-gradient-start: #e7e7e7;
   --bg-gradient-end: #1a1a1a;
-  --wght-cart-title: "wght" 700;
-  --wght-cart-text: "wght" 400;
+  --wght-cart-title: 700;
+  --wght-cart-text: 400;
   --heart-core-color: #FFF;
   --heart-main-body-color: #FFF;
   --heart-counter-color: #000;
@@ -43,8 +43,8 @@
     --bg-gradient-main: #000;
     --bg-gradient-start: #007f0c;
     --bg-gradient-end: #004306;
-    --wght-cart-title: "wght" 785;
-    --wght-cart-text: "wght" 465;
+    --wght-cart-title: 785;
+    --wght-cart-text: 465;
     --heart-core-color: #000;
     --heart-main-body-color: #000;
     --heart-counter-color: #00CC14;

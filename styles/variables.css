@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --color-main: #FFF;
+  --color-accent: #000;
+  --color-text: #FFF;
+  --bg-gradient-main: #d3d3d3;
+  --bg-gradient-start: #e7e7e7;
+  --bg-gradient-end: #1a1a1a;
+  --font-family-main: Inter;
+  --font-family-accent: 'Press Start 2P';
+  --font-weight-main: 400;
+  --font-weight-title: 700;
+  --font-weight-header: 400;
+  --wght-cart-title: "wght" 700;
+  --wght-cart-text: "wght" 400;
+  --heart-core-color: #FFF;
+  --heart-main-body-color: #FFF;
+  --heart-counter-color: #000;
+  --heart-sparks-color: #FF0000;
+  --heart-color: #FF0000;
+}

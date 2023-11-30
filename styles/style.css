@@ -59,6 +59,22 @@
   margin-block-end: 20px;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   text-decoration: none;
+  outline: 2px solid transparent;
+  outline-offset: 5px;
+  transition: outline 0.3s ease;
+}
+
+/*
+В макете нет фокуса на логотипе. Однако мне показалось что лучше стилизовать его под стиль остальных элементов, а не полностью убирать
+*/
+
+.header__logo:focus {
+  outline: none;
+}
+
+.header__logo:focus-visible {
+  outline: 2px solid var(--color-accent, #000);
+  outline-offset: 5px;
 }
 
 .header__title {

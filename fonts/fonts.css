@@ -2,8 +2,7 @@
 @font-face {
   font-family: Inter;
   src:
-  local('PressStart2P'),
-  url('Inter-Variable.woff2') format('woff2'),
+  local('Inter'),
   url('Inter-Variable.woff2') format('woff2 supports variations'),
   url('Inter-Variable.woff2') format('woff2-variations');
   font-weight: 400 785;

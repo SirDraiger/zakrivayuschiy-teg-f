@@ -38,7 +38,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wght" 400;
+  font-variation-settings: "wght" var(--font-weight-main, 400);
 }
 
 /* Стилизация header */
@@ -48,7 +48,7 @@
   align-items: center;
   margin: 0 auto 100px;
   border: 2px solid var(--color-accent, #000);
-  font-family: var(--font-family-accent, "Press Start 2P"), monospace;
+  font-family: var(--font-family-accent, "Press Start 2P"), fantasy;
   text-transform: uppercase;
   background-color: var(--color-main, #fff);
   inline-size: clamp(375px, 100%, 700px);
@@ -184,31 +184,31 @@
 }
 
 /* Фильтры для изображений карточки */
-.image-filter-1 {
+.image-filter-grayscale {
   filter: grayscale(70%);
 }
 
-.image-filter-2 {
+.image-filter-saturate {
   filter: saturate(300%);
 }
 
-.image-filter-3 {
+.image-filter-hue-rotate {
   filter: hue-rotate(31deg);
 }
 
-.image-filter-4 {
+.image-filter-invert {
   filter: invert(75%);
 }
 
-.image-filter-5 {
+.image-filter-sepia {
   filter: sepia(100%);
 }
 
-.image-filter-6 {
+.image-filter-blur {
   filter: blur(15px);
 }
 
-.image-filter-7 {
+.image-filter-multiple {
   filter: saturate(200%) hue-rotate(125deg) contrast(50%) blur(2px)
     brightness(120%);
 }
@@ -216,7 +216,7 @@
 .card__watermark {
   position: absolute;
   opacity: 0.5;
-  font-family: var(--font-family-accent, "Press Start 2P"), monospace;
+  font-family: var(--font-family-accent, "Press Start 2P"), fantasy;
   font-size: 14px;
   text-transform: uppercase;
   text-shadow: -1px 0 var(--color-main, #fff), 0 1px var(--color-main, #fff),
@@ -313,7 +313,7 @@
   z-index: 1;
   display: block;
   color: var(--color-text, #fff);
-  font-family: var(--font-family-accent, "Press Start 2P"), monospace;
+  font-family: var(--font-family-accent, "Press Start 2P"), fantasy;
   font-weight: 400;
   font-size: 14px;
   line-height: 90%;
@@ -393,10 +393,12 @@
 .dialog__button {
   border: 2px solid var(--color-accent, #000);
   padding: 11px 17px;
+  inline-size: 100%;
+  text-transform: uppercase;
 }
 
 .dialog__text {
-  font-family: var(--font-family-accent, "Press Start 2P"), monospace;
+  font-family: var(--font-family-accent, "Press Start 2P"), fantasy;
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
@@ -417,6 +419,12 @@
   /* Меняем размер кнопки Сохранить на память */
   .save__button {
     flex-direction: column;
+  }
+
+  /* Меняем размер иконки дискеты */
+  .save__button-icon {
+    inline-size: 28px;
+    block-size: 28px;
   }
 
   /* Меняем размер диалога */

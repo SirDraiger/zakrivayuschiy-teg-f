@@ -27,13 +27,8 @@
     transform: scale(1);
   }
 
-  50% {
-    transform: scale(1.5);
-  }
-
   to {
-    /* Шаг для более плавной анимации */
-    transform: scale(1);
+    transform: scale(1.5);
   }
 }
 
@@ -112,9 +107,9 @@
 }
 
 .like-icon.is-liked .heart-group {
-  animation: hear-scale 0.3s 0.1s ease-in alternate;
+  animation: hear-scale 0.3s 0.1s 2 ease-in alternate;
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks 0.3s 0.3s ease-in alternate;
+  animation: sparks 0.3s 0.3s 2 ease-in alternate;
 }

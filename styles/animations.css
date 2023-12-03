@@ -27,8 +27,13 @@
     transform: scale(1);
   }
 
-  to {
+  50% {
     transform: scale(1.5);
+  }
+
+  to {
+    /* Шаг для более плавной анимации */
+    transform: scale(1);
   }
 }
 
